@@ -2,7 +2,7 @@
 // Importing the necessary packages
 var mysql = require("mysql");
 var inquirer = require("inquirer");
-var cTable = require('console.table');
+
 // ---------------------------------------------------------------------------------------
 // Creating a connection to the MySQL database
 var connection = mysql.createConnection({
